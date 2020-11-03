@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+D:\Accenture Docs\Stream\ADFWeek2\.metadata\.plugins\org.eclipse.jdt.core
+3270698716.index

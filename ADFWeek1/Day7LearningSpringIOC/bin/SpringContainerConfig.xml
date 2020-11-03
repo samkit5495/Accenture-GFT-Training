@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+ 
+ 
+ <!--
+ Setter Injection
+  <bean id="dbQuery" class="com.accenture.ioc.utility.EmployeeSQLQueries" scope="singleton">
+ 	<property name="searchEmployee" value="select * from employee where eid=?"></property>
+ 	<property name="createEmployee" value="insert into employee values(?,?,?)"></property>
+ 	<property name="deleteEmployee" value="delete from emplyee where eid=?"></property>
+ </bean> 
+ -->
+ 
+ <!-- Constructor Injection -->
+ <bean id="dbQuery" class="com.accenture.ioc.utility.EmployeeSQLQueries" scope="singleton">
+ 	<constructor-arg index="0" value="select * from employee where eid=?"></constructor-arg>	
+ 	<constructor-arg index="1" value="insert into employee values(?,?,?)"></constructor-arg>
+ 	<constructor-arg index="2" value="delete from emplyee where eid=?"></constructor-arg>
+ </bean>
+ 
+ 
+</beans>

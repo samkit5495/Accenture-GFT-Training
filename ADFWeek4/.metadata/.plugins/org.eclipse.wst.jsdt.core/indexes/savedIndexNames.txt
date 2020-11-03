@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+D:\Accenture Docs\Stream\ADFWeek4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4243515291.index
+1507449793.index
+1491008531.index
+614049926.index
+1323352488.index
+1709364921.index
+4032789770.index
+1837514847.index
+163507338.index
+328945187.index
+3479954339.index

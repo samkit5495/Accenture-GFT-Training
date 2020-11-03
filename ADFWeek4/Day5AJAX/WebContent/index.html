@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button onclick="testAJAX()">Click Here</button>
+
+
+<script type="text/javascript">
+
+	var request;
+	
+	function testAJAX() {
+		request = new XMLHttpRequest();
+		request.open("GET","data.txt",true);
+		request.send();
+		request.onreadystatechange = display;
+	}
+
+	
+
+	function display() {
+		if(request.readyState==4 && request.status==200){
+			var response = request.responseText;
+			alert(response);
+		}
+	}
+	
+</script>
+
+</body>
+</html>

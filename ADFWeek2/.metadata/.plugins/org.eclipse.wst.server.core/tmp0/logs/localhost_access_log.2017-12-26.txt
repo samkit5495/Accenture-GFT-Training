@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Dec/2017:23:03:06 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:03:08 +0530] "GET /FestivalPortalR2_Participant/index.jsp HTTP/1.1" 200 2218
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:03:08 +0530] "GET /FestivalPortalR2_Participant/css/struts2.css HTTP/1.1" 200 1012
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:04:33 +0530] "POST /FestivalPortalR2_Participant/searchVisitor.htm HTTP/1.1" 200 8829
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:04:33 +0530] "GET /FestivalPortalR2_Participant/images/upointer.jpg HTTP/1.1" 200 718
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:04:33 +0530] "GET /FestivalPortalR2_Participant/images/greenhorizontalline.jpg HTTP/1.1" 200 2045
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:04:33 +0530] "GET /FestivalPortalR2_Participant/images/dpointer.jpg HTTP/1.1" 200 719
+0:0:0:0:0:0:0:1 - - [26/Dec/2017:23:04:49 +0530] "GET /FestivalPortalR2_Participant/index.jsp HTTP/1.1" 200 2218
